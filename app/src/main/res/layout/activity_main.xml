@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout"
+    android:background="@color/colorBase"
+    android:orientation="vertical">
+
+    <!-- Image and Cards -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/honey"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <!-- Row 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="225dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <!-- Day 1 -->
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/day1_stack"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/day1_title_main"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biceps &amp; Triceps"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:paddingTop="10dp" />
+                </LinearLayout>
+                <!-- Day 2 -->
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/day2_stack"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:text="@string/day2_title_main"
+                        android:textSize="28sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shoulders &amp; Chest"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:paddingTop="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Row 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="375dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <!-- Day 3 -->
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/day3_stack"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:text="@string/day3_title_main"
+                        android:textSize="28sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back &amp; Abs"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:paddingTop="10dp" />
+
+                </LinearLayout>
+                <!-- Day 4 -->
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:id="@+id/day4_stack"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:text="@string/day4_title_main"
+                        android:textSize="28sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Legs"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:paddingTop="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <!-- Bottom Section -->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/alien" />
+            <TextView
+                android:id="@+id/welcometxt"
+                android:textStyle="bold"
+                android:fontFamily="@font/product_sans_bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/welcome"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@drawable/divider"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            <TextView
+                android:id="@+id/datetxt"
+                android:textStyle="bold"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/resDesc"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bmiGo"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bmiRefresh"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+            <TextView
+                android:id="@+id/mainBMI"
+                android:textStyle="bold"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="null"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/moreinfo"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@android:drawable/ic_menu_search" />
+            <TextView
+                android:textStyle="bold"
+                android:fontFamily="@font/product_sans_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="View more workouts"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a1a1a</color>          //appbar
+    <color name="colorPrimaryDark">#1a1a1a</color>     //statusbar
+    <color name="colorAccent">#ec7e26</color>         //accent
+    <color name="colorBase">#FBFBFB</color>          //base color
+    <color name="bmi_blue">#03A9F4</color>
+    <color name="bmi_green">#8BC34A</color>
+    <color name="bmi_yellow">#FFEB3B</color>
+    <color name="bmi_orange">#FF9800</color>
+    <color name="bmi_red">#F44336</color>
+</resources>

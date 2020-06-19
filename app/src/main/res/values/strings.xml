@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Alien</string>
+    <string name="dayopen">dayopen</string>
+    <string name="superset">Superset</string>
+    <string name="resDesc">description</string>
+    <string name="welcome">Welcome, User</string>
+
+    <!--Day1 -->
+    <string name="day1_title_main">Day 1</string>
+    <string name="day1_title_biceps">Biceps</string>
+    <string name="day1_title_triceps">Triceps</string>
+
+    <string name="card1_text">Standing DB Curl</string>
+    <string name="card1_image">Standing DB Curl</string>
+    <string name="card1_text_2">Standing Hammer Curl</string>
+    <string name="card1_image_2">Standing Hammer Curl</string>
+
+    <string name="card2_text">Standing Barbell Curl</string>
+    <string name="card2_image">Standing Barbell Curl</string>
+    <string name="card2_text_2">DB Concentration Curl</string>
+    <string name="card2_image_2">DB Concentration Curl</string>
+
+    <string name="card3_text">Overhead Tricep Extension</string>
+    <string name="card3_image">Overhead Tricep Extension</string>
+    <string name="card3_text_2">Standing Tricep Pressdowns</string>
+    <string name="card3_image_2">Standing Tricep Pressdowns</string>
+
+    <string name="card4_text">Tricep Kickback</string>
+    <string name="card4_image">Tricep Kickback</string>
+    <string name="card4_text_2">Underhand Kickback</string>
+    <string name="card4_image_2">Underhand Kickback</string>
+
+    <!--Day2 -->
+    <string name="day2_title_main">Day 2</string>
+    <string name="day2_title_1">Shoulders</string>
+    <string name="day2_title_2">Chest</string>
+
+    <string name="day2_card1_text">Military Press</string>
+    <string name="day2_card1_image">Military Press</string>
+    <string name="day2_card1_text_2">DB Lateral Raise</string>
+    <string name="day2_card1_image_2">DB Lateral Raise</string>
+
+    <string name="day2_card2_text">Upright Row</string>
+    <string name="day2_card2_image">Upright Row</string>
+    <string name="day2_card2_text_2">Front Raise</string>
+    <string name="day2_card2_image_2">Front Raise</string>
+
+    <string name="day2_card3_text">DB Bench Press</string>
+    <string name="day2_card3_image">DB Bench Press</string>
+    <string name="day2_card3_text_2">Chest Flyes</string>
+    <string name="day2_card3_image_2">Chest Flyes</string>
+
+    <string name="day2_card4_text">High Cable Flyes</string>
+    <string name="day2_card4_image">High Cable Flyes</string>
+    <string name="day2_card4_text_2">Cable Flyes</string>
+    <string name="day2_card4_image_2">Cable Flyes</string>
+
+    <!--Day3 -->
+    <string name="day3_title_main">Day 3</string>
+    <string name="day3_title_1">Back</string>
+    <string name="day3_title_2">Abs</string>
+
+    <string name="day3_card1_text">Single-Arm DB Rows</string>
+    <string name="day3_card1_image">Single-Arm DB Rows</string>
+    <string name="day3_card1_text_2">Delt Raise</string>
+    <string name="day3_card1_image_2">Delt Raise</string>
+
+    <string name="day3_card2_text">Bent Over Row</string>
+    <string name="day3_card2_image">Bent Over Row</string>
+    <string name="day3_card2_text_2">Rear Delt Cable Fly</string>
+    <string name="day3_card2_image_2">Rear Delt Cable Fly</string>
+
+    <string name="day3_card3_text">Overhead Sit-ups</string>
+    <string name="day3_card3_image">Overhead Sit-ups</string>
+    <string name="day3_card3_text_2">Weighted leg-raise</string>
+    <string name="day3_card3_image_2">Weighted leg-raise</string>
+
+    <string name="day3_card4_text">DB Oblique Crunch</string>
+    <string name="day3_card4_image">DB Oblique Crunch</string>
+    <string name="day3_card4_text_2">Plank</string>
+    <string name="day3_card4_image_2">Plank</string>
+
+    <!--Day4 -->
+    <string name="day4_title_1">Legs</string>
+    <string name="day4_title_main">Day 4</string>
+
+    <string name="day4_card1_text">Stiff-legged DL</string>
+    <string name="day4_card1_image">Stiff-legged DL</string>
+    <string name="day4_card1_text_2">Goblet Squat</string>
+    <string name="day4_card1_image_2">Goblet Squat</string>
+
+    <string name="day4_card2_text">Reverse Lunge (sliders)</string>
+    <string name="day4_card2_image">Reverse Lunge (sliders)</string>
+
+    <string name="day4_card3_text">Bulgarian Split Squat</string>
+    <string name="day4_card3_image">Bulgarian Split Squat</string>
+
+    <string name="day4_card4_text">Calf Lean</string>
+    <string name="day4_card4_image">Calf Lean</string>
+
+    <!--Info -->
+    <string name="info_title_1">More Workouts</string>
+    <string name="info">INFO</string>
+    <string name="info_link_1">
+                                http://www.jasestuart.com/exercise-database-forearms\n\n
+                                http://www.jasestuart.com/exercise-database-cardio\n\n
+                                http://www.jasestuart.com/exercise-database-calves\n\n
+                                http://www.jasestuart.com/exercise-database-triceps\n\n
+                                http://www.jasestuart.com/exercise-database-biceps\n\n
+                                http://www.jasestuart.com/exercise-database-shoulders\n\n
+                                http://www.jasestuart.com/exercise-database-legs\n\n
+                                http://www.jasestuart.com/exercise-database-back\n\n
+                                http://www.jasestuart.com/resistance-exercise-database\n\n
+                                http://www.jasestuart.com/exercise-database-abs\n\n
+                                http://www.jasestuart.com/exercise-database-chest</string>
+
+    <string name="title_activity_day1_ab">Day 1</string>
+    <string name="title_activity_day2_ab">Day 2</string>
+    <string name="title_activity_day3_ab">Day 3</string>
+    <string name="title_activity_day4_ab">Day 4</string>
+
+</resources>
